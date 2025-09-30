@@ -39,7 +39,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <h1 className="text-2xl font-bold text-primary">Загидов Абдулазиз</h1>
@@ -104,7 +104,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="about" className="py-20 px-4 bg-muted/30">
+      <section id="about" className="py-20 px-4 bg-muted/20">
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-4xl font-bold text-primary mb-12 text-center">Обо мне</h2>
           <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -187,58 +187,58 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="business" className="py-20 px-4 bg-primary text-white">
+      <section id="business" className="py-20 px-4 bg-card text-foreground">
         <div className="container mx-auto max-w-5xl">
           <h2 className="text-4xl font-bold mb-12 text-center">Бизнес</h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-3xl font-semibold mb-6">Частное Охранное Предприятие</h3>
-              <p className="text-white/90 text-lg leading-relaxed mb-6">
+              <p className="text-foreground/90 text-lg leading-relaxed mb-6">
                 Предоставляем полный спектр услуг по обеспечению безопасности для бизнеса и частных лиц. 
                 Работаем с крупнейшими компаниями региона, обеспечивая надежную защиту их активов.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <Icon name="CheckCircle" size={24} className="text-secondary flex-shrink-0 mt-1" />
-                  <p className="text-white/90">Физическая охрана объектов</p>
+                  <p className="text-foreground/90">Физическая охрана объектов</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="CheckCircle" size={24} className="text-secondary flex-shrink-0 mt-1" />
-                  <p className="text-white/90">Установка и мониторинг систем безопасности</p>
+                  <p className="text-foreground/90">Установка и мониторинг систем безопасности</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="CheckCircle" size={24} className="text-secondary flex-shrink-0 mt-1" />
-                  <p className="text-white/90">Консультации по вопросам безопасности</p>
+                  <p className="text-foreground/90">Консультации по вопросам безопасности</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="CheckCircle" size={24} className="text-secondary flex-shrink-0 mt-1" />
-                  <p className="text-white/90">Сопровождение грузов и VIP-персон</p>
+                  <p className="text-foreground/90">Сопровождение грузов и VIP-персон</p>
                 </div>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-6">
-              <Card className="bg-white/10 backdrop-blur border-white/20">
+              <Card className="bg-muted/30 backdrop-blur border-border">
                 <CardContent className="p-6 text-center">
                   <p className="text-5xl font-bold text-secondary mb-2">150+</p>
-                  <p className="text-white/80">Сотрудников</p>
+                  <p className="text-foreground/80">Сотрудников</p>
                 </CardContent>
               </Card>
-              <Card className="bg-white/10 backdrop-blur border-white/20">
+              <Card className="bg-muted/30 backdrop-blur border-border">
                 <CardContent className="p-6 text-center">
                   <p className="text-5xl font-bold text-secondary mb-2">200+</p>
-                  <p className="text-white/80">Клиентов</p>
+                  <p className="text-foreground/80">Клиентов</p>
                 </CardContent>
               </Card>
-              <Card className="bg-white/10 backdrop-blur border-white/20">
+              <Card className="bg-muted/30 backdrop-blur border-border">
                 <CardContent className="p-6 text-center">
                   <p className="text-5xl font-bold text-secondary mb-2">5</p>
-                  <p className="text-white/80">Филиалов</p>
+                  <p className="text-foreground/80">Филиалов</p>
                 </CardContent>
               </Card>
-              <Card className="bg-white/10 backdrop-blur border-white/20">
+              <Card className="bg-muted/30 backdrop-blur border-border">
                 <CardContent className="p-6 text-center">
                   <p className="text-5xl font-bold text-secondary mb-2">6</p>
-                  <p className="text-white/80">Лет на рынке</p>
+                  <p className="text-foreground/80">Лет на рынке</p>
                 </CardContent>
               </Card>
             </div>
