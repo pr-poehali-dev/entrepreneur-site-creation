@@ -27,8 +27,8 @@ const Index = () => {
     },
     {
       year: '2025',
-      title: 'Глава села Чиркота',
-      description: 'Избран главой села Чиркота, активная работа по развитию инфраструктуры и улучшению жизни жителей'
+      title: 'Глава сельского поселения',
+      description: 'Исполняющий обязанности главы сельского поселения "село Чирката" Гумбетовского района Республики Дагестан'
     },
     {
       year: '2022',
@@ -47,7 +47,7 @@ const Index = () => {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold text-primary">Загидов Абдулазиз</h1>
+            <h1 className="text-2xl font-bold text-primary">Загидов Абдулазиз Магомедович</h1>
             <div className="hidden md:flex gap-8">
               <button
                 onClick={() => scrollToSection('about')}
@@ -83,7 +83,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <h2 className="text-5xl md:text-6xl font-bold text-primary mb-6 leading-tight">
-                Загидов<br />Абдулазиз
+                Загидов Абдулазиз<br />Магомедович
               </h2>
               <p className="text-xl text-muted-foreground mb-4">Предприниматель</p>
               <p className="text-lg text-foreground/80 mb-8 leading-relaxed">
@@ -100,8 +100,8 @@ const Index = () => {
             </div>
             <div className="flex justify-center animate-fade-in">
               <img
-                src="/img/751e2013-d963-4814-b00c-cbd0afdbef61.jpg"
-                alt="Загидов Абдулазиз"
+                src="https://cdn.poehali.dev/files/8dd72695-86e1-46e0-95a6-db381869013c.jpeg"
+                alt="Загидов Абдулазиз Магомедович"
                 className="rounded-lg shadow-2xl w-full max-w-md object-cover"
               />
             </div>
@@ -310,7 +310,7 @@ const Index = () => {
       <footer className="py-8 px-4 border-t border-border">
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-muted-foreground">© 2024 Загидов Абдулазиз. Все права защищены.</p>
+            <p className="text-muted-foreground">© 2024 Загидов Абдулазиз Магомедович. Все права защищены.</p>
             <div className="flex gap-4">
               <Button variant="ghost" size="icon">
                 <Icon name="Linkedin" size={20} />
