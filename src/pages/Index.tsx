@@ -82,7 +82,7 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <Icon name="Shield" size={32} className="text-secondary" />
-              <h1 className="text-2xl font-bold text-primary">Загидов Абдулазиз</h1>
+              <h1 className="text-2xl font-bold text-primary">Загидов Абдулазиз Магомедов</h1>
             </div>
             <div className="hidden md:flex gap-8">
               <button
@@ -128,7 +128,7 @@ const Index = () => {
                 <p className="text-secondary font-semibold">Предприниматель • Руководитель ЧСБ Холдинг</p>
               </div>
               <h2 className="text-5xl md:text-6xl font-bold text-primary mb-6 leading-tight">
-                Загидов<br />Абдулазиз
+                Загидов Абдулазиз<br />Магомедов
               </h2>
               <p className="text-xl text-foreground/80 mb-8 leading-relaxed">
                 Основатель и генеральный директор ЧОП "ЧСБ Холдинг" — 
@@ -157,7 +157,7 @@ const Index = () => {
                 <div className="absolute -inset-4 bg-secondary/20 rounded-lg blur-2xl"></div>
                 <img
                   src="https://cdn.poehali.dev/files/8dd72695-86e1-46e0-95a6-db381869013c.jpeg"
-                  alt="Загидов Абдулазиз"
+                  alt="Загидов Абдулазиз Магомедов"
                   className="relative rounded-lg shadow-2xl w-full max-w-md object-cover"
                 />
               </div>
@@ -407,7 +407,7 @@ const Index = () => {
       <footer className="py-8 px-4 border-t border-border bg-muted/20">
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-muted-foreground">© 2024 Загидов Абдулазиз. ЧОП "ЧСБ Холдинг" — Лучшее ЧОП России</p>
+            <p className="text-muted-foreground">© 2024 Загидов Абдулазиз Магомедов. ЧОП "ЧСБ Холдинг" — Лучшее ЧОП России</p>
             <div className="flex gap-4">
               <Button variant="ghost" size="icon" className="hover:bg-secondary/10">
                 <Icon name="Instagram" size={20} />
